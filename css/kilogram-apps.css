@@ -1,0 +1,61 @@
+.kilogram-app {
+  position: relative;
+  height: 100%
+}
+
+.kilogram-app.ios.gmail {
+  font-size: 16px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif
+}
+
+.kilogram-app.ios.gmail a {
+  color: #4986E7 !important;
+  text-decoration: none
+}
+
+.kilogram-app.ios.gmail .header {
+  height: 80px;
+  background-color: #DA4336
+}
+
+.kilogram-app.ios.gmail .email {
+  overflow-y: scroll;
+  height: calc(100% - 80px)
+}
+
+.kilogram-app.ios.gmail .email .subject {
+  border-bottom: #ECECEC 1px solid;
+  padding: 16px;
+  display: block
+}
+
+.kilogram-app.ios.gmail .email .meta {
+  padding: 16px;
+  line-height: 1.2em
+}
+
+.kilogram-app.ios.gmail .email .meta .from .avatar {
+  float: left;
+  margin: 0 16px 0 0
+}
+
+.kilogram-app.ios.gmail .email .meta .from .avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px
+}
+
+.kilogram-app.ios.gmail .email .meta .from .name {
+  font-size: 14px
+}
+
+.kilogram-app.ios.gmail .email .meta .date, .kilogram-app.ios.gmail .email .meta .to {
+  color: #9A9A9A;
+  font-size: 12px
+}
+
+.kilogram-app.ios.gmail .email .body {
+  margin: 16px;
+  font-size: 16px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif
+}

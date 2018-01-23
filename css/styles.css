@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+.body {
+  margin: 0
+}
+
+.marvel-device {
+  margin: 1em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
